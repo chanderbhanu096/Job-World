@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Job World</string>
+    <string name="find_job">Search Jobs</string>
+    <string name="post_job">Post a Job</string>
+    <string name="title_hint"><font size="14">Job Title</font></string>
+    <string name="description_hint"><font size="14">Job Description</font></string>
+    <string name="contact_details"><font size="14">Contact Me</font></string>
+</resources>

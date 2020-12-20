@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background=""
-
     tools:context=".New_Job">
 
     <EditText
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="10dp"
@@ -24,14 +24,14 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-
         android:layout_margin="10dp" />
 
     <EditText
+        android:id="@+id/job_description"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="10dp"
-        android:layout_weight="6"
+        android:layout_weight="5"
         android:gravity="top"
         android:hint="@string/description_hint"
         android:inputType="textMultiLine"
@@ -39,6 +39,18 @@
         android:textSize="14sp" />
 
     <EditText
+        android:id="@+id/job_location"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/location"
+        android:maxLines="2"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/contact_me"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="10dp"
@@ -54,9 +66,10 @@
         android:layout_weight="1">
 
         <Button
+            android:id="@+id/submit_new_job"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Submit"
+            android:text="@string/submit"
             android:textSize="30sp" />
     </LinearLayout>
 </LinearLayout>

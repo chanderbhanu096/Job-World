@@ -5,6 +5,8 @@
     <string name="title_hint"><font size="14">Job Title</font></string>
     <string name="description_hint"><font size="14">Job Description</font></string>
     <string name="contact_details"><font size="14">Contact Me</font></string>
+    <string name="location"><font size="14">Enter Work Location</font></string>
+    <string name="submit">Submit</string>
     <string-array name="Spinner_item">
         <item>Cleaning services</item>
         <item>Home renovation services</item>
